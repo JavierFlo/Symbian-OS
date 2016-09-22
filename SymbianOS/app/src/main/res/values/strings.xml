@@ -1,0 +1,33 @@
+<resources>
+    <string name="btnQueEs">¿Qué es?</string>
+    <string name="btnCaracteristicas">Características</string>
+    <string name="tituloCaracteristicas"><b>Características</b></string>
+    <string name="historia"><b>Historia</b></string>
+    <string name="btnHistoria">Historia</string>
+    <string name="TituloHistoria">Historia \n \n</string>
+    <string name="btnArquitectura">Arquitectura</string>
+    <string name="btnEvolucion">Evolución</string>
+    <string name="app_name">Symbian OS</string>
+    <string name="definicion">Es un sistema operativo para móviles, perteneciente a la empresa Nokia más una variedad de alianzas con otras empresas como Sony, Motorola, Samsung, Panasonic, Lenovo entre otras del mundo tecnológico para celulares.</string>
+    <string name="caracteristicas1">• Symbian OS posee un núcleo de tiempo real. </string>
+    <string name="caracteristicas2">• Es un sistema operativo con un microkernel y capacidad multithreading. </string>
+    <string name="caracteristicas3">• Soporta las arquitecturas de los últimos CPU e incluso soporta hardware "single-chip" o de un solo chip. </string>
+    <string name="caracteristicas4">• Cuenta con un sistema de archivos de alta performance que soporta las últimas memorias NOR, NAND, SD y MMC. </string>
+    <string name="caracteristicas5">• Soportan paginación bajo demanda. La paginación bajo demanda permite un mejor aprovechamiento de la memoria RAM de los dispositivos ya que solo se carga en memoria la "página" que se va a ejecutar. </string>
+    <string name="caracteristicas6">• Entre los servicios genéricos que brinda el SO, se encuentran una base de datos SQL, seguridad integrada contra malware y virus y soporte para varias plataformas de desarrollo como C++, J2ME, C </string>
+
+    <string name="HistoriaTexto"> Symbian surge  de su antecesor EPOC que  era un sistema operativo desarrollado por Psion principalmente para PDAs. \n \n
+Symbian surge en el año 1998 cuando se crea una  alianza de múltiples empresas del sector de la telefonía móvil, cuya intención clara fue la de crear un Sistema Operativo orientado para terminales de telefonía móvil y con él hacerle competencia a Palm y Windows Mobile.\n \n
+Al cabo del tiempo, dado su gran éxito y habiéndose convertido en el mayor fabricante de telefonía móvil a nivel mundial, Nokia decidió comprar el 52 por ciento de las acciones tras un acuerdo con el resto de propietarios y pasó a convertirse dueño de Symbian.\n \n
+Viéndose llegar el declive del sistema operativo en cuestión, el objetivo que se marcó Nokia, fue el de que Symbian pasara a ser una plataforma abierta y accesible a nuevos desarrolladores, para así de esta manera parecida al sistema utilizado por iOS, relanzar el Sistema Operativo e implementarlo con mejoras y aplicaciones de calidad.\n \n
+Como se ha podido ver unos años más tarde, el sistema no dio los frutos deseados, y fue entonces cuando Nokia allá por el año 2009/2010 decide transferir el soporte de Symbian a la consultora Accent, operación que se culmina a finales de septiembre de 2011.
+
+ </string>
+
+   <string name="ArquitecturaTexto"> <b>Capa arquitectura kernel: </b> En realidad la arquitectura correcta es la microkernel. El microkernel se encarga de lo mínimo necesario para que el sistema operativo opere correctamente,es decir, el microkernel se encarga del gestionamiento de la planificación, comunicación de procesos y otras elementales, los otros servicios como gestionamiento de la memoria , etc (que se encargaba basicamente el kernel) ahora se ejecuntan como procesos. La ventaja de esta arquitectura microkernel es que cuando ocurre un fallo en el sistema, este fallo solo afecta al proceso, aplicación o módulo donde ocurrió el fallo y no afecta a todo el sistema.\n \n
+ <b>Capa de servicio base: </b>  Constituye el núcleo de symbian y está formada por las librerías de usuario, el microkernel y los controladores de dispositivos (drivers). \n  \n
+ <b> Capa de servicios del Sistema Operativo:</b>Son los servicios principales del sistema. Entre ellos destacan el servicio de comunicacion, que proporciona el marco de trabajo y los servicios del sistema para las comunicaciones y el establecimiento de conexiones de red.También esta el servicio de mensajería que proporciona el soporte para los protocolos de envío y recepción de SMS,MMS, correo electronico,etc. El servicio de telefonía y otros. \n  \n
+ <b> Capa de servicios de aplicación: </b> Se encuentra Java Me, que es un conjunto de interfaces de programación de aplicación para que las diferentes empresas que producen equipos que soportan este sistema operativo puedan modificar las aplicaciones a los requisitos de sus equipos creando así diversas plataformas del sistema operativo. \n  \n
+   <b>Capa de Framework:</b> Es la capa que permite la interacción entre el usuario y la plataforma del sistema.  \n  \n</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Symbian OS</string>
+    <string name="definicion">It is a mobile operating system, belonging to the company Nokia plus a variety of alliances with other companies such as Sony, Motorola, Samsung, Panasonic, Lenovo and other mobile tech world.</string>
+    <string name="caracteristicas1">• Symbian OS has a real-time kernel.</string>
+    <string name="caracteristicas2">• It is an operating system with a microkernel and multithreading capabilities.</string>
+    <string name="caracteristicas3">• Supports the latest CPU architectures and even supports hardware "single-chip" or single chip.</string>
+    <string name="caracteristicas4"> • It has a file system that supports high performance the past memories NOR, NAND, SD and MMC.</string>
+    <string name="caracteristicas5">• Versions 9.3, 9.4 and 9.5 (latest version), support demand paging. Demand paging allows better use of RAM memory devices as only loaded into memory "page" to be executed.</string>
+    <string name="caracteristicas6">• Among the generic services provided by the SO, you will find a SQL database, integrated security against virus and malware and support for multiple development platforms like C ++, J2ME, C</string>
+    <string name="tituloCaracteristicas">Features</string>
+    <string name="btnCaracteristicas">Features</string>
+    <string name="btnEvolucion">Evolution</string>
+    <string name="btnHistoria">History</string>
+    <string name="TituloHistoria">History \n \n</string>
+    <string name="btnQueEs">What is it?</string>
+    <string name="historia">History</string>
+    <string name="btnArquitectura">Architecture</string>
+    <string name="HistoriaTexto"> Symbian EPOC arises from its predecessor which was an operating system developed by Psion mainly for PDAs.
+Symbian comes in 1998 when an alliance of many companies in the mobile sector is created, whose clear intention was to create a targeted for mobile phone handsets and give him competition to Palm and Windows Mobile operating system. \n \n
+Over time, given its great success and having become the largest manufacturer of mobile global phone, Nokia decided to buy 52 percent of shares following an agreement with the other owners and went on to become owner of Symbian. \n \n
+Seeing reach the decline of the operating system in question, the goal that Nokia was marked, was that Symbian should become an open and accessible platform to new developers, so this similar to the system used by iOS way, relaunch the Operating System and implement them with quality improvements and applications. \n\n
+As has been seen a few years later, the system did not produce the desired results, and that was when Nokia back in 2009/2010 decides to transfer to support Symbian Accent consulting operation that culminates in late September 2011.</string>
+
+    <string name="ArquitecturaTexto"> <b>Kernel layer architecture:</b> Actually the right architecture is the microkernel. The microkernel is responsible for the minimum necessary for the operating system to operate properly, ie, the microkernel is responsible gestionamiento planning, communication processes and other elementary, other services such as gestionamiento memory, etc (which handled basically the kernel) is now ejecuntan as processes. The advantage of this microkernel architecture is that when a fault occurs in the system, this bug only affects the process, application or module where the fault occurred and does not affect the entire system.\n \n
+ <b>Base layer service:</b> It is the core of symbian and is made up libraries user, the microkernel and device drivers (drivers).\n \n
+<b>Service Layer Operating System:</b> Are the main system services. These include communication service, which provides the framework and system services for communications and establishing connections red.También this messaging service that provides support for protocols send and receive SMS, MMS, email, etc. Telephone service and others.\n \n
+<b>Layer application services: </b> Java Me, which is a set of programming interfaces application is found for different companies producing equipment supporting this operating system may modify applications to the requirements of their equipment thus creating different system platforms operating. \n \n
+<b>Framework Layer: </b>The layer that allows interaction between the user and the system platform. </string>
+</resources>
